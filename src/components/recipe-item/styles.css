@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.recipe-item{
+    margin:10px;
+    padding:10px;
+    width:20%;
+    background-color:#D8E2DC;
+    border-radius: 20px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recipe-item img{
+    width:80%;
+    height:200px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-bottom:10px;
+}
+
+.recipe-item button{
+    border:none;
+    height:30px;
+    background-color: rgba(0,0,0,0);
+}
+
+.recipe-item ion-icon{
+    font-size:10px;
+    width:20px;
+    height:20px;
+    color:red;
+}
+
+.button-favorite{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border-radius: 20px;
+}
