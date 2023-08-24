@@ -42,7 +42,7 @@ const Homepage = () => {
         setLoadingState(true);
         async function getRecipes() {
             // Faz uma chamada à API com base na pesquisa.
-            const apiResponse = await fetch('https://api.spoonacular.com/recipes/complexSearch?apiKey=1ba77cdfdf7f41c3a335034a6694a70b&query=' + getData);
+            const apiResponse = await fetch('https://api.spoonacular.com/recipes/complexSearch?apiKey={colocarAPIKEYaqui}&query=' + getData);
             const result = await apiResponse.json();
             const { results } = result;
 
