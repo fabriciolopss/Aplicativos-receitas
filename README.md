@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+Receitas Deliciosas
+Visão geral
+Este é um projeto React.js que permite aos usuários buscar receitas usando a API Spoonacular. Os usuários podem filtrar as receitas com base em diferentes critérios, visualizar os detalhes das receitas e até mesmo favoritar suas receitas favoritas, que são salvas no armazenamento local (LocalStorage).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Funcionalidades
+Busca de Receitas: Os usuários podem pesquisar receitas digitando palavras-chave na barra de pesquisa.
 
-## Available Scripts
+Filtragem Avançada: É possível filtrar as receitas por categoria, tipo de culinária, tempo de preparo e outros critérios.
 
-In the project directory, you can run:
+Detalhes da Receita: Os usuários podem clicar em uma receita para ver detalhes como ingredientes, instruções de preparo e tempo de cozimento.
 
-### `npm start`
+Favoritos: Os usuários podem favoritar receitas e essas informações são armazenadas no LocalStorage para acesso posterior.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Como Executar
+Para executar este projeto localmente, siga estas etapas:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone o repositório:
 
-### `npm test`
+bash
+Copy code
+git clone https://github.com/seu-usuario/seu-projeto.git
+Navegue até o diretório do projeto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+cd seu-projeto
+Instale as dependências:
 
-### `npm run build`
+bash
+Copy code
+npm install
+Inicie o aplicativo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy code
+npm start
+O aplicativo estará disponível em http://localhost:3000 em seu navegador.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Configuração da API Spoonacular
+Para usar a API Spoonacular neste projeto, você precisa obter uma chave de API gratuita em Spoonacular API. Após obter sua chave, você deve configurá-la no arquivo de configuração do projeto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Crie um arquivo .env.local na raiz do projeto.
 
-### `npm run eject`
+Adicione sua chave de API Spoonacular no arquivo .env.local:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+env
+Copy code
+REACT_APP_SPOONACULAR_API_KEY=SUA_CHAVE_API_AQUI
+Contribuindo
+Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga estas etapas:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Faça um fork do repositório.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone o fork para o seu ambiente de desenvolvimento:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy code
+git clone https://github.com/seu-usuario/seu-fork.git
+Crie um branch para suas alterações:
 
-## Learn More
+bash
+Copy code
+git checkout -b feature/sua-feature
+Faça suas alterações e adicione, commit e envie para o seu fork:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Copy code
+git add .
+git commit -m "Adicione sua mensagem de commit aqui"
+git push origin feature/sua-feature
+Abra um Pull Request no repositório principal e descreva suas alterações.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Autor
+Seu Nome
+Licença
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
